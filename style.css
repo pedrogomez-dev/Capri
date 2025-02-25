@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+header{
+    height: 150px;
+    display: flex;
+}
+.logo{
+    margin-left: 15%;
+    background-color: #435585;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.angelito{
+    height: 110px;
+}
+.ambos{
+    height: 100vh;
+    background-color: #f5e8c7;
+    display: flex;
+}
+.primero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.segundo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texts{
+    height: 90%;
+}
+.title{
+    font-family: "Bree Serif", serif;
+    font-size: 50pt;
+    color: #818fb4;
+}
+.sub-title{
+    background-color:#818fb4 ;
+    color: white;
+    font-size: 30pt;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.parrafo{
+    font-size: 22pt;
+    color: #818fb4;
+}
+.foto{
+    display: flex;
+    height: 150px;
+}
+.interno{
+    text-align: center;
+}
+/*FINAL DE LA PRIMERA PARTE*/
+.consulta{
+    background-color:#363062;
+    height: 55px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+}
+.espacios{
+    padding-bottom: 10px;
+}
+input{
+    text-align: center;
+    height: 55px;
+    letter-spacing: 5px;
+    border-radius: 10px;
+}
+input::placeholder{
+    font-size: 20pt;
+    height: fit-content;
+    width: fit-content;
+}
+.miTextarea{
+    height: 90px; /* Permite que la altura sea automática */
+    min-height: 50px; /* Establece una altura mínima */
+    overflow: hidden; /* Oculta la barra de desplazamiento */
+    resize: none; /* Desactiva el redimensionamiento manual */
+    box-sizing: border-box;
+}
+textarea::placeholder{
+    font-size: 15pt}
+.button-div{
+    display: flex;
+}
+.boton{
+    border:none;
+    border-radius: 10px;
+    font-size: 25pt;
+    font-weight: bold;
+    background-color:#363062;
+    color: white;
+}
+
+@media (max-width:991px) {
+    .ambos{
+        display: block;
+    }
+    .primero{
+        text-align: center;
+    }
+}
+@media(max-width:1259px)
+{
+    .ambos{
+        height: 120vh;
+    }
+}
